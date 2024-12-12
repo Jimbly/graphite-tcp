@@ -1,5 +1,6 @@
 var reconnect= require('./reconnect-tcp')
 var util = require('util')
+var extend = Object.assign || util._extend
 
 function Client(options) {
 
@@ -17,7 +18,7 @@ function Client(options) {
   }
 
   function init() {
-    options = util._extend(defaults, options)
+    options = extend(defaults, options)
 
     createClient()
 
