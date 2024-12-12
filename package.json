@@ -1,7 +1,7 @@
 {
-  "name": "graphite-tcp",
+  "name": "@jimbly/graphite-tcp",
   "description": "Graphite TCP client for Node.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "graphite-tcp.js",
   "author": "fermads",
   "homepage": "https://github.com/itamarwe/graphite-tcp",
